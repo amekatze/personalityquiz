@@ -1,8 +1,29 @@
 import React, { useState, useEffect } from "react";
 import { CognitiveFunctionScores, UserResponse, Question } from "./types";
 import QuestionComponent from "./components/Question";
-
+import ResultComponent from "./components/Result";
 import questionsData from "./questions.json";
+
+// Function to shuffle an array
+const shuffleArray = <T,>(array: T[]): T[] => {
+  let currentIndex = array.length;
+  let randomIndex: number;
+
+  // While there remain elements to shuffle...
+  while (currentIndex !== 0) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ];
+  }
+
+  return array;
+};
 
 const App: React.FC = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -11,11 +32,16 @@ const App: React.FC = () => {
   const [scores, setScores] = useState<CognitiveFunctionScores | null>(null);
 
   useEffect(() => {
-    setQuestions(questionsData as Question[]);
+    // Shuffle questions and set the state
+    const shuffledQuestions = shuffleArray(questionsData as Question[]);
+    setQuestions(shuffledQuestions);
   }, []);
 
   const handleAnswer = (response: UserResponse) => {
-    setResponses([...responses, response]);
+    setResponses([
+      ...responses,
+      { ...response, questionIndex: currentQuestionIndex },
+    ]);
     if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
     } else {
@@ -35,35 +61,53 @@ const App: React.FC = () => {
       Ti: 0,
     };
 
+    // Iterate over responses to calculate scores
     responses.forEach((response) => {
-      const question = questions.find((q) => q.id === response.questionId);
+      // Match response to question using the questionIndex
+      const question = questions[response.questionIndex];
       if (question) {
+        // Ensure question has the expected format
+        if (question.functionTypes.length !== 2) {
+          console.error(
+            `Question at index ${response.questionIndex} does not have exactly two function types.`
+          );
+          return;
+        }
+
         const [function1, function2] = question.functionTypes;
+        // Update scores based on selected option
         if (response.selectedOption === 0) {
           newScores[function1] += 1;
-        } else {
+        } else if (response.selectedOption === 1) {
           newScores[function2] += 1;
+        } else {
+          console.error(
+            `Invalid selectedOption value: ${response.selectedOption}`
+          );
         }
+      } else {
+        console.error(`No question found at index ${response.questionIndex}`);
       }
     });
 
     setScores(newScores);
   };
 
+  const restartTest = () => {
+    setResponses([]);
+    setCurrentQuestionIndex(0);
+    setScores(null);
+
+    // Shuffle questions again for the new test
+    const shuffledQuestions = shuffleArray(questionsData as Question[]);
+    setQuestions(shuffledQuestions);
+  };
+
   return (
     <div className="container">
       <h1>Cognitive Function Test</h1>
       {scores ? (
-        <div>
-          <h2>Your Cognitive Function Scores:</h2>
-          <ul>
-            {Object.entries(scores).map(([functionName, score]) => (
-              <li key={functionName}>
-                {functionName}: {score}
-              </li>
-            ))}
-          </ul>
-        </div>
+        <ResultComponent scores={scores} onRestart={restartTest} />
       ) : (
         questions.length > 0 &&
         currentQuestionIndex < questions.length && (

@@ -16,8 +16,10 @@ const QuestionComponent: React.FC<QuestionProps> = ({ question, onAnswer }) => {
   };
 
   return (
-    <div className="question-container">
-      <p>{question.text}</p>
+    <div>
+      <div className="question-container">
+        <p>{question.text}</p>
+      </div>
       <div className="question-options">
         {question.options.map((option, index) => (
           <button key={index} onClick={() => handleOptionClick(index)}>
