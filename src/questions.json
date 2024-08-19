@@ -1,179 +1,145 @@
 [
   {
-    "id": 1,
-    "text": "When evaluating an idea, do you focus more on its internal consistency or how it aligns with personal values?",
-    "options": ["Internal Consistency", "Personal Values"],
-    "functionTypes": ["Ti", "Fi"]
+    "text": "When deciding between two job offers, do you choose the one that excites you personally or the one that fits better with your long-term career plans?",
+    "options": ["Personal Excitement", "Long-Term Career Plans"],
+    "functionTypes": ["Fi", "Ti"]
   },
   {
-    "id": 2,
-    "text": "Do you prefer to analyze and understand systems from a logical perspective or consider the impact on personal well-being and ethical implications?",
-    "options": ["Logical Perspective", "Personal Well-Being"],
-    "functionTypes": ["Ti", "Fi"]
+    "text": "When making a decision that affects both a close friend and a distant acquaintance, do you choose based on your personal relationship with each person or on what you logically believe will have the best outcome?",
+    "options": ["Personal Relationship", "Logical Outcome"],
+    "functionTypes": ["Fi", "Ti"]
   },
   {
-    "id": 3,
-    "text": "When working on a team project, do you focus more on achieving results efficiently or ensuring everyone is happy and involved?",
+    "text": "When planning a surprise for someone, do you consider what would genuinely delight them or what you think will fit best with their lifestyle?",
+    "options": ["Genuinely Delight", "Fit with Lifestyle"],
+    "functionTypes": ["Fi", "Ti"]
+  },
+  {
+    "text": "When there's a disagreement in a group, do you focus on finding a resolution to keep the group in harmony or on sticking to your own viewpoint, even if it causes friction?",
+    "options": ["Finding Resolution", "Sticking to Your Viewpoint"],
+    "functionTypes": ["Fe", "Fi"]
+  },
+  {
+    "text": "When choosing a gift for a friend, do you pick something that you know they'll love based on their interests or something that you personally think is meaningful?",
+    "options": ["Friend's Interests", "Your Own Meaning"],
+    "functionTypes": ["Fe", "Fi"]
+  },
+  {
+    "text": "When choosing a side in a debate, do you base your decision on which side will foster the most productive discussion or on which side you personally agree with?",
+    "options": ["Productive Discussion", "Personal Agreement"],
+    "functionTypes": ["Fe", "Fi"]
+  },
+  {
+    "text": "When planning a personal goal, do you focus more on your vision of the end result and how it aligns with your long-term aspirations, or on the practical steps and past experiences that have led to success in similar situations?",
     "options": [
-      "Achieving Results Efficiently",
-      "Ensuring Happiness and Involvement"
+      "Vision and Long-Term Aspirations",
+      "Practical Steps and Past Success"
     ],
-    "functionTypes": ["Te", "Fe"]
+    "functionTypes": ["Ni", "Si"]
   },
   {
-    "id": 4,
-    "text": "In a leadership role, do you prioritize getting things done quickly and effectively or maintaining a positive and supportive team environment?",
+    "text": "When making a significant life decision, do you rely more on your intuitive insights and future projections of how things might turn out, or on analyzing past experiences and detailed information related to similar decisions?",
     "options": [
-      "Getting Things Done Quickly",
-      "Maintaining Positive Environment"
+      "Intuitive Insights and Future Projections",
+      "Past Experiences and Detailed Information"
     ],
-    "functionTypes": ["Te", "Fe"]
+    "functionTypes": ["Ni", "Si"]
   },
   {
-    "id": 5,
-    "text": "Do you prefer to focus on the practicalities of a situation or the feelings and perspectives of those involved?",
-    "options": ["Practicalities", "Feelings and Perspectives"],
-    "functionTypes": ["Te", "Fe"]
-  },
-  {
-    "id": 6,
-    "text": "When solving problems, do you rely more on established procedures or personal intuition and values?",
-    "options": ["Established Procedures", "Personal Intuition and Values"],
-    "functionTypes": ["Te", "Fi"]
-  },
-  {
-    "id": 7,
-    "text": "Do you find it easier to understand how something works by breaking it down into its components or by considering how it fits into the bigger picture?",
-    "options": ["Breaking it Down", "Bigger Picture"],
-    "functionTypes": ["Ti", "Ni"]
-  },
-  {
-    "id": 8,
-    "text": "Do you approach new information with a focus on its practical applications or how it might influence your personal beliefs and values?",
-    "options": ["Practical Applications", "Personal Beliefs and Values"],
-    "functionTypes": ["Te", "Fi"]
-  },
-  {
-    "id": 9,
-    "text": "When making a decision, do you prioritize logical reasoning and efficiency or the impact on people and relationships?",
+    "text": "When organizing an event, do you prefer to imagine how the event will unfold and what the overall experience will be, or follow a detailed checklist based on how similar events were successfully managed before?",
     "options": [
-      "Logical Reasoning and Efficiency",
-      "Impact on People and Relationships"
+      "Imagined Experience and Vision",
+      "Detailed Checklist and Past Management"
     ],
-    "functionTypes": ["Te", "Fe"]
+    "functionTypes": ["Ni", "Si"]
   },
   {
-    "id": 10,
-    "text": "Do you prefer to organize and plan based on detailed information or broad, overarching concepts?",
-    "options": ["Detailed Information", "Broad Concepts"],
-    "functionTypes": ["Si", "Ni"]
+    "text": "When visiting a new restaurant, do you stick to familiar dishes you know you'll enjoy or try something new that catches your eye on the menu?",
+    "options": ["Familiar Dishes", "New Dishes"],
+    "functionTypes": ["Si", "Se"]
   },
   {
-    "id": 11,
-    "text": "When encountering a new experience, do you focus more on the immediate sensory details and excitement or on how it relates to your past experiences and routines?",
+    "text": "When decorating your home, do you choose styles that have worked for you in the past or experiment with new trends and ideas?",
+    "options": ["Proven Styles", "New Trends"],
+    "functionTypes": ["Si", "Se"]
+  },
+  {
+    "text": "When picking a movie to watch, do you choose based on a detailed review or synopsis that provides in-depth analysis, or do you go with an intriguing poster and brief description that catches your eye?",
+    "options": ["Detailed Review/Synopsis", "Intriguing Poster/Description"],
+    "functionTypes": ["Si", "Se"]
+  },
+  {
+    "text": "When shopping for a new gadget, do you rely on detailed product reviews and specifications based on past performance or choose based on the latest features and innovations that capture your attention?",
     "options": [
-      "Immediate Sensory Details and Excitement",
-      "Past Experiences and Routines"
+      "Detailed Reviews/Specifications",
+      "Latest Features/Innovations"
     ],
-    "functionTypes": ["Se", "Si"]
+    "functionTypes": ["Si", "Se"]
   },
   {
-    "id": 12,
-    "text": "Do you prefer to trust your immediate sensory impressions and instincts or rely on detailed recollections and past knowledge when making decisions?",
-    "options": [
-      "Immediate Sensory Impressions and Instincts",
-      "Detailed Recollections and Past Knowledge"
-    ],
-    "functionTypes": ["Se", "Si"]
+    "text": "When organizing a big event, do you stick to a standard checklist to make sure everything is covered or create a customized plan based on what has worked well in the past?",
+    "options": ["Standard Checklist", "Customized Plan"],
+    "functionTypes": ["Te", "Ti"]
   },
   {
-    "id": 13,
-    "text": "In dealing with new situations, do you rely more on your sensory experiences in the moment or on the accumulated knowledge from past experiences?",
-    "options": [
-      "Sensory Experiences in the Moment",
-      "Accumulated Knowledge from Past Experiences"
-    ],
-    "functionTypes": ["Se", "Si"]
+    "text": "When tackling a new business process, do you implement a proven method to streamline things or analyze the specific needs to adapt your approach?",
+    "options": ["Proven Method", "Adapt Based on Needs"],
+    "functionTypes": ["Te", "Ti"]
   },
   {
-    "id": 14,
-    "text": "When solving problems, do you prefer to use established methods and practical approaches or to analyze the situation based on your internal principles and logic?",
+    "text": "When participating in a debate, do you focus on using logical arguments supported by evidence or on presenting your personal perspective and reasoning?",
     "options": [
-      "Established Methods and Practical Approaches",
-      "Internal Principles and Logic"
+      "Logical Arguments and Evidence",
+      "Personal Perspective and Reasoning"
     ],
     "functionTypes": ["Te", "Ti"]
   },
   {
-    "id": 15,
-    "text": "Do you focus more on creating efficient systems and achieving results or on understanding and refining your internal thought processes?",
-    "options": [
-      "Creating Efficient Systems and Achieving Results",
-      "Understanding and Refining Internal Thought Processes"
-    ],
-    "functionTypes": ["Te", "Ti"]
+    "text": "When starting a new project, do you create a detailed plan based on your vision or brainstorm different possibilities before making a final decision?",
+    "options": ["Detailed Plan", "Brainstorm Possibilities"],
+    "functionTypes": ["Ni", "Ne"]
   },
   {
-    "id": 16,
-    "text": "When making decisions, do you prioritize organizing and structuring information to achieve goals or analyzing and ensuring the correctness of your reasoning?",
-    "options": [
-      "Organizing and Structuring Information",
-      "Analyzing and Ensuring Correctness"
-    ],
-    "functionTypes": ["Te", "Ti"]
+    "text": "When writing a story, do you focus on developing a deep and detailed plot or come up with multiple ideas and see which one becomes the most interesting?",
+    "options": ["Detailed Plot", "Multiple Ideas"],
+    "functionTypes": ["Ni", "Ne"]
   },
   {
-    "id": 17,
-    "text": "When interacting with others, do you prioritize maintaining harmony and understanding their feelings or analyzing situations based on your internal principles?",
-    "options": [
-      "Maintaining Harmony and Understanding Feelings",
-      "Analyzing Situations Based on Internal Principles"
-    ],
-    "functionTypes": ["Fe", "Fi"]
+    "text": "When tackling a complex problem, do you prefer to delve deeply into one approach and refine it or explore various potential solutions and adapt based on what works best?",
+    "options": ["Deeply Refining One Approach", "Exploring Various Solutions"],
+    "functionTypes": ["Ni", "Ne"]
   },
   {
-    "id": 18,
-    "text": "In social situations, do you focus more on responding to others' emotions and creating a supportive environment or on your own values and internal consistency?",
-    "options": [
-      "Responding to Emotions and Creating Supportive Environment",
-      "Own Values and Internal Consistency"
-    ],
-    "functionTypes": ["Fe", "Fi"]
+    "text": "When organizing a community event, do you prioritize detailed logistics and planning or responding to the needs and feedback of attendees and volunteers?",
+    "options": ["Detailed Logistics and Planning", "Needs and Feedback"],
+    "functionTypes": ["Te", "Fe"]
   },
   {
-    "id": 19,
-    "text": "Do you find it more important to build relationships and understand others' perspectives or to stay true to your personal values and beliefs?",
-    "options": [
-      "Build Relationships and Understand Others' Perspectives",
-      "Stay True to Personal Values and Beliefs"
-    ],
-    "functionTypes": ["Fe", "Fi"]
+    "text": "When comforting a friend who’s going through a tough time, do you prefer to talk about ways to solve their problem or offer emotional support and empathy?",
+    "options": ["Problem-Solving", "Emotional Support"],
+    "functionTypes": ["Te", "Fe"]
   },
   {
-    "id": 20,
-    "text": "When exploring ideas, do you prefer to consider various possibilities and future potential or focus on a single vision and its depth?",
+    "text": "When preparing for a family gathering, do you prioritize creating a detailed plan to ensure everything runs smoothly or making sure that each family member’s needs and preferences are taken into account?",
     "options": [
-      "Various Possibilities and Future Potential",
-      "Single Vision and Depth"
+      "Detailed Plan for Smooth Operation",
+      "Considering Each Family Member’s Needs"
     ],
-    "functionTypes": ["Ne", "Ni"]
+    "functionTypes": ["Te", "Fe"]
   },
   {
-    "id": 21,
-    "text": "Do you find it more engaging to brainstorm a wide range of creative solutions or to delve deeply into a singular, complex idea?",
-    "options": [
-      "Brainstorming Creative Solutions",
-      "Delving Deeply into a Singular Idea"
-    ],
-    "functionTypes": ["Ne", "Ni"]
+    "text": "When you discover a new hobby, do you dive right in to experience it or think about how you might develop it into a long-term passion?",
+    "options": ["Dive Right In", "Think Long-Term"],
+    "functionTypes": ["Se", "Ne"]
   },
   {
-    "id": 22,
-    "text": "When planning for the future, do you explore multiple scenarios and opportunities or focus on developing a single, detailed vision?",
-    "options": [
-      "Multiple Scenarios and Opportunities",
-      "Single, Detailed Vision"
-    ],
-    "functionTypes": ["Ne", "Ni"]
+    "text": "While hiking, are you more focused on enjoying the immediate surroundings or thinking about how the experience could inspire future projects or ideas?",
+    "options": ["Enjoying Surroundings", "Thinking About Future Projects"],
+    "functionTypes": ["Se", "Ne"]
+  },
+  {
+    "text": "When trying a new recipe, do you follow the instructions closely to ensure the result is as expected or experiment with different ingredients to create your own version?",
+    "options": ["Follow Instructions Closely", "Experiment with Ingredients"],
+    "functionTypes": ["Se", "Ne"]
   }
 ]
