@@ -1,0 +1,179 @@
+[
+  {
+    "id": 1,
+    "text": "When evaluating an idea, do you focus more on its internal consistency or how it aligns with personal values?",
+    "options": ["Internal Consistency", "Personal Values"],
+    "functionTypes": ["Ti", "Fi"]
+  },
+  {
+    "id": 2,
+    "text": "Do you prefer to analyze and understand systems from a logical perspective or consider the impact on personal well-being and ethical implications?",
+    "options": ["Logical Perspective", "Personal Well-Being"],
+    "functionTypes": ["Ti", "Fi"]
+  },
+  {
+    "id": 3,
+    "text": "When working on a team project, do you focus more on achieving results efficiently or ensuring everyone is happy and involved?",
+    "options": [
+      "Achieving Results Efficiently",
+      "Ensuring Happiness and Involvement"
+    ],
+    "functionTypes": ["Te", "Fe"]
+  },
+  {
+    "id": 4,
+    "text": "In a leadership role, do you prioritize getting things done quickly and effectively or maintaining a positive and supportive team environment?",
+    "options": [
+      "Getting Things Done Quickly",
+      "Maintaining Positive Environment"
+    ],
+    "functionTypes": ["Te", "Fe"]
+  },
+  {
+    "id": 5,
+    "text": "Do you prefer to focus on the practicalities of a situation or the feelings and perspectives of those involved?",
+    "options": ["Practicalities", "Feelings and Perspectives"],
+    "functionTypes": ["Te", "Fe"]
+  },
+  {
+    "id": 6,
+    "text": "When solving problems, do you rely more on established procedures or personal intuition and values?",
+    "options": ["Established Procedures", "Personal Intuition and Values"],
+    "functionTypes": ["Te", "Fi"]
+  },
+  {
+    "id": 7,
+    "text": "Do you find it easier to understand how something works by breaking it down into its components or by considering how it fits into the bigger picture?",
+    "options": ["Breaking it Down", "Bigger Picture"],
+    "functionTypes": ["Ti", "Ni"]
+  },
+  {
+    "id": 8,
+    "text": "Do you approach new information with a focus on its practical applications or how it might influence your personal beliefs and values?",
+    "options": ["Practical Applications", "Personal Beliefs and Values"],
+    "functionTypes": ["Te", "Fi"]
+  },
+  {
+    "id": 9,
+    "text": "When making a decision, do you prioritize logical reasoning and efficiency or the impact on people and relationships?",
+    "options": [
+      "Logical Reasoning and Efficiency",
+      "Impact on People and Relationships"
+    ],
+    "functionTypes": ["Te", "Fe"]
+  },
+  {
+    "id": 10,
+    "text": "Do you prefer to organize and plan based on detailed information or broad, overarching concepts?",
+    "options": ["Detailed Information", "Broad Concepts"],
+    "functionTypes": ["Si", "Ni"]
+  },
+  {
+    "id": 11,
+    "text": "When encountering a new experience, do you focus more on the immediate sensory details and excitement or on how it relates to your past experiences and routines?",
+    "options": [
+      "Immediate Sensory Details and Excitement",
+      "Past Experiences and Routines"
+    ],
+    "functionTypes": ["Se", "Si"]
+  },
+  {
+    "id": 12,
+    "text": "Do you prefer to trust your immediate sensory impressions and instincts or rely on detailed recollections and past knowledge when making decisions?",
+    "options": [
+      "Immediate Sensory Impressions and Instincts",
+      "Detailed Recollections and Past Knowledge"
+    ],
+    "functionTypes": ["Se", "Si"]
+  },
+  {
+    "id": 13,
+    "text": "In dealing with new situations, do you rely more on your sensory experiences in the moment or on the accumulated knowledge from past experiences?",
+    "options": [
+      "Sensory Experiences in the Moment",
+      "Accumulated Knowledge from Past Experiences"
+    ],
+    "functionTypes": ["Se", "Si"]
+  },
+  {
+    "id": 14,
+    "text": "When solving problems, do you prefer to use established methods and practical approaches or to analyze the situation based on your internal principles and logic?",
+    "options": [
+      "Established Methods and Practical Approaches",
+      "Internal Principles and Logic"
+    ],
+    "functionTypes": ["Te", "Ti"]
+  },
+  {
+    "id": 15,
+    "text": "Do you focus more on creating efficient systems and achieving results or on understanding and refining your internal thought processes?",
+    "options": [
+      "Creating Efficient Systems and Achieving Results",
+      "Understanding and Refining Internal Thought Processes"
+    ],
+    "functionTypes": ["Te", "Ti"]
+  },
+  {
+    "id": 16,
+    "text": "When making decisions, do you prioritize organizing and structuring information to achieve goals or analyzing and ensuring the correctness of your reasoning?",
+    "options": [
+      "Organizing and Structuring Information",
+      "Analyzing and Ensuring Correctness"
+    ],
+    "functionTypes": ["Te", "Ti"]
+  },
+  {
+    "id": 17,
+    "text": "When interacting with others, do you prioritize maintaining harmony and understanding their feelings or analyzing situations based on your internal principles?",
+    "options": [
+      "Maintaining Harmony and Understanding Feelings",
+      "Analyzing Situations Based on Internal Principles"
+    ],
+    "functionTypes": ["Fe", "Fi"]
+  },
+  {
+    "id": 18,
+    "text": "In social situations, do you focus more on responding to others' emotions and creating a supportive environment or on your own values and internal consistency?",
+    "options": [
+      "Responding to Emotions and Creating Supportive Environment",
+      "Own Values and Internal Consistency"
+    ],
+    "functionTypes": ["Fe", "Fi"]
+  },
+  {
+    "id": 19,
+    "text": "Do you find it more important to build relationships and understand others' perspectives or to stay true to your personal values and beliefs?",
+    "options": [
+      "Build Relationships and Understand Others' Perspectives",
+      "Stay True to Personal Values and Beliefs"
+    ],
+    "functionTypes": ["Fe", "Fi"]
+  },
+  {
+    "id": 20,
+    "text": "When exploring ideas, do you prefer to consider various possibilities and future potential or focus on a single vision and its depth?",
+    "options": [
+      "Various Possibilities and Future Potential",
+      "Single Vision and Depth"
+    ],
+    "functionTypes": ["Ne", "Ni"]
+  },
+  {
+    "id": 21,
+    "text": "Do you find it more engaging to brainstorm a wide range of creative solutions or to delve deeply into a singular, complex idea?",
+    "options": [
+      "Brainstorming Creative Solutions",
+      "Delving Deeply into a Singular Idea"
+    ],
+    "functionTypes": ["Ne", "Ni"]
+  },
+  {
+    "id": 22,
+    "text": "When planning for the future, do you explore multiple scenarios and opportunities or focus on developing a single, detailed vision?",
+    "options": [
+      "Multiple Scenarios and Opportunities",
+      "Single, Detailed Vision"
+    ],
+    "functionTypes": ["Ne", "Ni"]
+  }
+]
